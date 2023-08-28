@@ -29,7 +29,7 @@ public class WebDriverContainer {
     }
 
     public static void initDriver() throws MalformedURLException {
-        Browser browser = Browser.getEnumByLabel(System.getProperty("browser", CHROME.getBrowserName()));
+        Browser browser = Browser.getEnumByLabel(System.getProperty("browser", EDGE.getBrowserName()));
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setBrowserName(browser.getBrowserName());
         caps.setPlatform(Platform.WIN11);
