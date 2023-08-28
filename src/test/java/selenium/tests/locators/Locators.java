@@ -1,7 +1,6 @@
 package selenium.tests.locators;
 
 import org.openqa.selenium.By;
-
 import java.io.InputStream;
 import java.util.Properties;
 
